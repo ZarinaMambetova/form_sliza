@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Заказы</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="order">
+      <div class="order-info">
+        <ul class="order-info__list">
+          <li class="order-info__item">
+            <div class="order-info__number">
+              Заказ № 000001
+            </div>
+          </li>
+          <li class="order-info__item">
+            <div class="order-info__status">
+                <div class="status__form">
+                  <label for="status" class="status__name">Статус:</label>
+                  <select name="status" id="status" class="status__value">
+                    <option value="1" selected>Ожидает подтверждения</option>
+                    <option value="2">Подтверждено</option>
+                  </select>
+                </div>
+            </div>
+          </li>
+          <li class="order-info__item">
+            <div class="order-info__sum">
+                <span class="sum__name">
+                  Сумма закупки:
+                </span>
+                <span class="sum__value">
+                  18000 ₽
+                  </span>
+              </div>
+          </li>
+          <li class="order-info__item">
+            <div class="order-info__name">
+              Пробная закупка
+            </div>
+          </li>
+        </ul>
+      </div>
+      <main class="main">
+        <div class="order-form">
+          <div class="container">
+            <ul class="order-form_buyers__list">
+              <li class="order-form_buyers__item">
+                <div class="buyer__detailes">
+                    <div class="buyer-info">
+                        <div class="buyer-info__akk">
+                            <div class="buyer-info__avatar">
+                            <img src="./image/1@3x.png" alt="" class="buyer-info__avatar-pic">
+                          </div>
+                          <div class="buyer-info__name">
+                              Эрнест Л.
+                          </div>
+                        </div>
+                        <div class="social buyer-info__social">
+                            <img src="./image/Subtraction_50@4x.png" alt="" class="social-pic">
+                        </div>
+                    </div>
+                    <div class="order-info">
+                      <div class="order__row">
+                        <div class="order-info__number order-info__number-black">
+                          Заказ № 000001
+                        </div>
+                        <div class="order-info__sum">
+                          <span class="sum__value sum__value-green">
+                            18000 ₽
+                          </span>
+                        </div>
+                      </div>
+                      <div class="order__row">
+                        <div class="order-info__name">
+                          Пробная закупка
+                        </div>
+                      </div>
+                      <div class="order__row">
+                        <div class="order-info__status">
+                          <div class="status__form">
+                            <label for="status" class="status__name">Статус:</label>
+                            <select name="status" id="status" class="status__value">
+                              <option value="1" selected>Ожидает подтверждения</option>
+                              <option value="2">Подтверждено</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="buyer-card__list">
+                      <li class="buyer-card__item">
+                        <div class="order__row">
+                          <div class="buyer-card__name">
+                            Мужской джемпер с длинным рукавом
+                          </div>
+                        </div>
+                        <div class="order__row">
+                          <div class="buyer-card__article">
+                            <span class="article__name">Артикул</span>
+                            <span class="article__number">152226</span>
+                          </div>
+                          <div class="social order-card__social">
+        
+                          </div>
+                        </div>
+                        <div class="order__row">
+                          <div class="buyer-card__color">
+                            <span class="color__name">Цвет:</span>
+                            <span class="color__type">синий</span>
+                          </div>
+                        </div>
+                        <div class="order__row">
+                          <div class="buyer-card__selling-price">
+                            <span class="selling-price__name">Цена продажи:</span>
+                            <span class="selling-price__value">800 ₽</span>
+                          </div>
+                          <div class="buyer-card__purchase-price">
+                            <span class="purchase-price__name">Цена закупки:</span>
+                            <span class="purchase-price__value">800 ₽</span>
+                          </div>
+                        </div>
+                        <div class="order__row">
+                          <div class="buyer-card__amount">
+                            <span class="amount__name">Количество</span>
+                            <div class="amount__stepper stepper--style-2 js-spinner">
+                                <input autofocus type="number" min="0" max="100" step="1" value="10" class="stepper__input" data-stepper-debounce="400">
+                                <div class="stepper__controls">
+                                    <button type="button" spinner-button="up">+</button>
+                                    <button type="button" spinner-button="down">-</button>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="buyer-card__have">
+                            <button class="btn_have">Отсутствует</button>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="order-item">
+          <div class="container">
+            <div class="order-item__name">
+               Джемпер (Kurdi) 227320 синий цвет в интернет-магазин VsePoKarmanu.ru
+            </div>
+            <div class="order-item__link">
+                https://vsepokarmanu.ru/items/dzhemper_siniy_muzh_kurdi_5079_3245335/
+            </div>
+            <div class="order-item__page">
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="js/stepper.min.js"></script>
+</body>
+</html>

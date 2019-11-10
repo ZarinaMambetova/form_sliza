@@ -1,0 +1,39 @@
+.order-info__list {
+display: flex;
+height: 30px;
+background-color: #f9f9f9;
+font-size: 14px;
+align-items: center;
+padding: 5px 25px;
+}
+
+.order-info__item {
+  padding: 5px 25px;
+  position: relative;
+}
+
+.order-info__item::after {
+content: "|";
+display: inline-block;
+position: absolute;
+top: 14%;
+width: 3px;
+height: 14px;
+left: 0;
+
+}
+
+.order-info__item:first-child::after {
+  display: none;
+}
+
+select {
+  width: 196px;
+height: 24px;
+border-radius: 2px;
+border: 1px solid #b4c3d0;
+background-color: #f9f9f9;
+outline: none;
+color: #9499a8;
+}
+
