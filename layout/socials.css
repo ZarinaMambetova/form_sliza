@@ -1,0 +1,12 @@
+.social__link_icon {
+  fill: #585858;
+  height: 22px;
+  width: 22px;
+  transition: 0.5s;
+}
+
+
+.social__link_icon-vk:hover {
+  fill: #4a719a;
+}
+

@@ -1,0 +1,57 @@
+.buyer-card__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #17283c;
+  white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.buyer-card__selling-price, .buyer-card__purchase-price {
+  color: #17283c;
+}
+
+.btn_have {
+  border-radius: 2px;
+  border: 1px solid #b4c3d0;
+  background-color: #ffffff;
+  color: #b4c3d0;
+  padding: 2px 5px;
+  outline: none;
+}
+
+.btn_have:hover {
+  background-color: #1baffa;
+  color: #ffffff;
+}
+
+.btn_have_active {
+  background-color: #1baffa;
+  color: #ffffff;
+}
+
+.btn_down, .btn_up {
+  width: 20px;
+height: 20px;
+border-radius: 3px;
+}
+
+.btn_down:hover  {
+background-color: #ff5252;;
+border-color: #ff5252;;
+color: #fff;
+}
+
+.btn_up:hover {
+  background-color: #26c37f;
+border-color: #26c37f;
+color: #fff;
+}
+
+.buyer-card__amount {
+  display: flex;
+}
+
+.amount__name {
+margin-right: 10px;
+}

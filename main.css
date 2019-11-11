@@ -4,6 +4,8 @@
 @import "layout/order-form.css" ;
 @import "layout/order-item.css" ;
 @import "layout/buyer__detailes.css" ;
+@import "layout/socials.css" ;
+@import "layout/buyer-cards.css" ;
 
 html,
 body {
@@ -16,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f1f3f6;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -27,6 +30,7 @@ body {
 
 .main {
   display: flex;
+  
 }
 
 .container {

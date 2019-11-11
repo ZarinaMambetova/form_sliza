@@ -21,13 +21,11 @@
           </li>
           <li class="order-info__item">
             <div class="order-info__status">
-                <div class="status__form">
                   <label for="status" class="status__name">Статус:</label>
                   <select name="status" id="status" class="status__value">
                     <option value="1" selected>Ожидает подтверждения</option>
                     <option value="2">Подтверждено</option>
                   </select>
-                </div>
             </div>
           </li>
           <li class="order-info__item">
@@ -49,7 +47,6 @@
       </div>
       <main class="main">
         <div class="order-form">
-          <div class="container">
             <ul class="order-form_buyers__list">
               <li class="order-form_buyers__item">
                 <div class="buyer__detailes">
@@ -58,12 +55,16 @@
                             <div class="buyer-info__avatar">
                             <img src="./image/1@3x.png" alt="" class="buyer-info__avatar-pic">
                           </div>
-                          <div class="buyer-info__name">
+                          <span class="buyer-info__name">
                               Эрнест Л.
-                          </div>
+                          </span>
                         </div>
                         <div class="social buyer-info__social">
-                            <img src="./image/Subtraction_50@4x.png" alt="" class="social-pic">
+                          <a href="https://vk.com" class="social__link" target="_blank">
+                            <svg id="vk-blue" class="social__link_icon">
+                                <use xlink:href="images/icon/sprite.svg#vk-blue"></use>
+                            </svg>
+                          </a>
                         </div>
                     </div>
                     <div class="order-info">
@@ -78,23 +79,21 @@
                         </div>
                       </div>
                       <div class="order__row">
-                        <div class="order-info__name">
+                        <div class="order-info__name order-info__name-black">
                           Пробная закупка
                         </div>
                       </div>
                       <div class="order__row">
-                        <div class="order-info__status">
-                          <div class="status__form">
+                        <div class="order-info__status order-info__status-form">
                             <label for="status" class="status__name">Статус:</label>
-                            <select name="status" id="status" class="status__value">
+                            <select name="status" id="status" class="status__value status__value-black">
                               <option value="1" selected>Ожидает подтверждения</option>
                               <option value="2">Подтверждено</option>
                             </select>
-                          </div>
                         </div>
                       </div>
                     </div>
-                    <ul class="buyer-card__list">
+                    <ul class="buyer-cards">
                       <li class="buyer-card__item">
                         <div class="order__row">
                           <div class="buyer-card__name">
@@ -107,7 +106,11 @@
                             <span class="article__number">152226</span>
                           </div>
                           <div class="social order-card__social">
-        
+                            <a href="https://vk.com" class="social__link" target="_blank">
+                              <svg id="vk-gray" class="social__link_icon social__link_icon-vk">
+                                  <use xlink:href="images/icon/sprite.svg#vk-gray"></use>
+                              </svg>
+                            </a>
                           </div>
                         </div>
                         <div class="order__row">
@@ -130,11 +133,12 @@
                           <div class="buyer-card__amount">
                             <span class="amount__name">Количество</span>
                             <div class="amount__stepper stepper--style-2 js-spinner">
-                                <input autofocus type="number" min="0" max="100" step="1" value="10" class="stepper__input" data-stepper-debounce="400">
                                 <div class="stepper__controls">
-                                    <button type="button" spinner-button="up">+</button>
-                                    <button type="button" spinner-button="down">-</button>
+                                    <button type="button" class="btn_down" spinner-button="down">-</button>
+                                    <button type="button" class="btn_up" spinner-button="up">+</button>
                                 </div>
+                                <input autofocus type="number" min="0" max="100" step="1" value="10" class="stepper__input" data-stepper-debounce="400">
+
                             </div>
                           </div>
                           <div class="buyer-card__have">
@@ -146,23 +150,21 @@
                 </div>
               </li>
             </ul>
-          </div>
         </div>
         <div class="order-item">
-          <div class="container">
-            <div class="order-item__name">
-               Джемпер (Kurdi) 227320 синий цвет в интернет-магазин VsePoKarmanu.ru
-            </div>
-            <div class="order-item__link">
-                https://vsepokarmanu.ru/items/dzhemper_siniy_muzh_kurdi_5079_3245335/
-            </div>
-            <div class="order-item__page">
-            </div>
+          <div class="order-item__name">
+              Джемпер (Kurdi) 227320 синий цвет в интернет-магазин VsePoKarmanu.ru
+          </div>
+          <div class="order-item__link">
+              https://vsepokarmanu.ru/items/dzhemper_siniy_muzh_kurdi_5079_3245335/
+          </div>
+          <div class="order-item__page">
           </div>
         </div>
       </main>
     </div>
   </div>
   <script src="js/stepper.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

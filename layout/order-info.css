@@ -28,12 +28,31 @@ left: 0;
 }
 
 select {
-  width: 196px;
+
+ max-width: 196px;
 height: 24px;
 border-radius: 2px;
 border: 1px solid #b4c3d0;
 background-color: #f9f9f9;
 outline: none;
 color: #9499a8;
+
 }
 
+.status__value-black {
+color: #17283c;
+width: 100%;
+}
+
+.order-info__status-form {
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9e8e8;
+}
+
+.status__name {
+  margin-right: 5px;
+}

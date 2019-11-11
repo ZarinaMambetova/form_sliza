@@ -1,5 +1,4 @@
 .buyer__detailes {
-width: 285px;
 box-shadow: 2px 8px 12px rgba(55, 65, 73, 0.15);
 border-radius: 3px;
 background-color: #ffffff;
@@ -8,7 +7,6 @@ padding: 15px;
 }
 
 .buyer-info {
-  width: 255px;
   border-bottom: 1px solid #e9e8e8;
   display: flex;
   justify-content: space-between;
@@ -32,7 +30,3 @@ margin-right: 10px;
   height: 100%;
 }
 
-.social-pic {
-  width: 22px;
-height: 22px;
-}

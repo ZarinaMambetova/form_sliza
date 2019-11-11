@@ -1,4 +1,27 @@
 .order-form {
-  max-width: 320px;
-  overflow-y: scroll;
+  width: 320px;
+height: 95vh;
+  overflow: scroll;
+}
+
+.order-form_buyers__item:last-child {
+  margin-bottom: 40px;
+}
+
+.order-info__number-black, .order-info__name-black {
+  font-size: 14px;
+  color: #17283c;
+}
+
+.order__row {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.sum__value-green {
+font-size: 14px;
+font-weight: 600;
+color: #26c37f;
 }
