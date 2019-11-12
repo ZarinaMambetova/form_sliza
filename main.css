@@ -18,12 +18,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f1f3f6;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .wrapper {
-  overflow: hidden;
-  min-width: 1440px;
+
   display: flex;
   flex-direction: column;
 }

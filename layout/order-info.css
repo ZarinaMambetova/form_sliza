@@ -1,6 +1,7 @@
 .order-info__list {
 display: flex;
-height: 30px;
+flex-wrap: wrap;
+min-height: 30px;
 background-color: #f9f9f9;
 font-size: 14px;
 align-items: center;
