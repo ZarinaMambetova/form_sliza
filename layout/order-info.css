@@ -28,6 +28,10 @@ left: 0;
   display: none;
 }
 
+.status__value:focus{
+  background-color: #f3f3f7;  
+}
+
 select {
 
  max-width: 196px;
