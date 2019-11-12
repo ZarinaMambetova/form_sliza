@@ -17,6 +17,7 @@
   height: 20px;
   border: 1px solid #e9e8e8;
   -moz-appearance: textfield;
+  width: 70px;
 }
 
 .stepper__input:focus{
