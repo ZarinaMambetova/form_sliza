@@ -1,0 +1,2 @@
+"use strict";document.querySelector(".buyer__detailes").addEventListener("click",function(t){var e=t.target;e.classList.contains("btn_have")&&(e.classList.contains("btn_have_active")?e.classList.remove("btn_have_active"):e.classList.add("btn_have_active"))});
+//# sourceMappingURL=main-dist.js.map
