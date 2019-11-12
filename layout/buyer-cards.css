@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 
-.btn_have:hover, .btn_have:focus {
+.btn_have:hover {
   background-color: #1baffa;
   color: #ffffff;
 }
@@ -30,10 +30,7 @@
   background-color: #1baffa;
   color: #ffffff;
 }
-.btn_have:focus {
-  background-color: #1baffa;
-  color: #ffffff;
-}
+
 
 .btn_down, .btn_up {
   width: 20px;
