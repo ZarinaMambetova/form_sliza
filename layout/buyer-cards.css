@@ -21,12 +21,16 @@
   cursor: pointer;
 }
 
-.btn_have:hover {
+.btn_have:hover, .btn_have:focus {
   background-color: #1baffa;
   color: #ffffff;
 }
 
 .btn_have_active {
+  background-color: #1baffa;
+  color: #ffffff;
+}
+.btn_have:focus {
   background-color: #1baffa;
   color: #ffffff;
 }
