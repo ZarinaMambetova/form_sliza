@@ -1,12 +1,47 @@
-.social__link_icon {
-  fill: #585858;
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__item {
+margin-right: 8px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+  }
+
+.social__icon {
+  fill: #b4c3d0;
   height: 22px;
   width: 22px;
   transition: 0.5s;
 }
 
+.social__icon-ok {
+width: 10px;
+height: 17px;
+}
 
-.social__link_icon-vk:hover {
+.social__icon-ok:hover {
+  fill: #f5831b;
+}
+
+.social__icon-vk {
+width: 18px;
+height: 11px;
+}
+
+.social__icon-vk:hover {
   fill: #4a719a;
 }
 
+.social__icon-globe {
+  width: 17px;
+  height: 17px;
+}
+
+.social__icon-globe:hover {
+  fill: #1baffa;
+}

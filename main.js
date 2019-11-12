@@ -1,11 +1,14 @@
-var hamburger = document.querySelector(".btn_have");
+(function () {
+      var have = document.querySelector(".btn_have");
 
-hamburger.addEventListener("click", function () {
-    if (hamburger.classList.contains("btn_have_active")) {
-        hamburger.classList.remove("btn_have_active");
-        
-    } else {
-        hamburger.classList.add("btn_have_active");
+    have.addEventListener("click", function () {
+        if (have.classList.contains("btn_have_active")) {
+          have.classList.remove("btn_have_active");
+            
+        } else {
+          have.classList.add("btn_have_active");
 
-         }
-});
+            }
+    });
+
+}());
