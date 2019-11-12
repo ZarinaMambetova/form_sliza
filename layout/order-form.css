@@ -1,7 +1,7 @@
 .order-form {
   width: 320px;
 height: 95vh;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .order-form_buyers__item:last-child {
